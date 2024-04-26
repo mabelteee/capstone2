@@ -1,0 +1,133 @@
+.container {
+    width: 90%;
+    background-color: #eff6ff;
+    color: black;
+}
+
+/* Banner */
+
+.banner {
+   display: grid;
+   grid-template-columns: 5fr 1fr;
+   grid-template-rows: 1fr;
+   padding-top: 10px;
+}
+
+.cvbutton {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.name {
+    display: flex;
+    align-items: end;
+    margin-bottom: 0;
+}
+
+
+/* hero */
+
+.profilepicdiv {
+    display: flex;
+    align-items: center;
+}
+
+.profilepic {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    background-color: white;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 5px 5px grey;
+    border-radius: 20px;
+
+}
+
+.textblock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.title {
+    display: flex;
+    align-items: start;
+}
+
+@media (max-width: 576px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profilepic {
+        overflow: hidden;
+        width: 50%;
+    }
+}
+
+/* projects */
+
+.projects {
+    background-color: white;
+    box-shadow: 5px 5px gray;
+    margin-top: 40px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    padding: 40px 
+}
+
+.projectstitle {
+    display: flex;
+    align-items: end;
+    padding-bottom: 40px;
+}
+
+.projectcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .projects {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .project2 {
+        margin-top: 20px;
+    }
+
+}
+
+
+.contact {
+
+    background-color: white;
+    box-shadow: 5px 5px gray;
+    margin-top: 40px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    padding: 40px 
+
+}
